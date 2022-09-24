@@ -12,7 +12,7 @@ int main(int argc, char **argv) {
     TF1 *f1 = new TF1("f1", "sin(x)", -25, 25);
 
     f1->SetLineColor(kBlue+1);
-    f1->SetLineWidth(6);
+    f1->SetLineWidth(3);
     f1->SetTitle("My graph;x;x sin(x)");
     f1->Draw();
     c->Modified(); c->Update();
